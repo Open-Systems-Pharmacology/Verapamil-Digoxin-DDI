@@ -32655,8 +32655,8 @@
       "Name": "DDI_Verapamil-Digoxin 0.125 mg po TID, Control, Belz 1983, n=12",
       "Model": "4Comp",
       "ObservedData": [
-        "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
-        "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12) 1"
+        "Belz et al. 1983 - Digoxin control to 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
+        "Belz et al. 1983 - Digoxin control to 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -32920,12 +32920,12 @@
         {
           "Scaling": "Log",
           "Path": "DDI_Verapamil-Digoxin 0.125 mg po TID, Control, Belz 1983, n=12|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)"
+          "ObservedData": "Belz et al. 1983 - Digoxin control to 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)"
         },
         {
           "Scaling": "Log",
           "Path": "DDI_Verapamil-Digoxin 0.125 mg po TID, Control, Belz 1983, n=12|Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12) 1"
+          "ObservedData": "Belz et al. 1983 - Digoxin control to 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)"
         }
       ],
       "Individual": "Belz 1983, n=12",
@@ -33056,23 +33056,23 @@
               }
             },
             {
-              "Name": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)-Digoxin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean",
+              "Name": "Belz et al. 1983 - Digoxin control to 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)-Digoxin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Belz et al. 1983 - Digoxin control to 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Belz et al. 1983 - Digoxin control to 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
-                "LegendIndex": 19,
+                "LegendIndex": 21,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             },
             {
-              "Name": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)-Digoxin-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|Time",
-              "Y": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean",
+              "Name": "Belz et al. 1983 - Digoxin control to 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)-Digoxin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Belz et al. 1983 - Digoxin control to 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|Time",
+              "Y": "Belz et al. 1983 - Digoxin control to 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#0000FF",
-                "LegendIndex": 20,
+                "LegendIndex": 22,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -33096,7 +33096,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Verapamil_clean_07\nDDI_Verapamil - Digoxin 0.125 mg po TID, Control, Belz 1983, n=12\n2020-07-01 13:00"
+          "OriginText": "Verapamil-Norverapamil-Digoxin-DDI\nDDI_Verapamil-Digoxin 0.125 mg po TID, Control, Belz 1983, n=12\n2024-09-20 16:00"
         }
       ]
     },
@@ -45524,153 +45524,6 @@
       }
     },
     {
-      "Name": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE",
-          "Type": "String"
-        },
-        {
-          "Name": "ID",
-          "Value": 16164.0,
-          "Type": "Double"
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Belz et al. 1983",
-          "Type": "String"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/6831819/",
-          "Type": "String"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig. 1",
-          "Type": "String"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "Digoxin control",
-          "Type": "String"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated",
-          "Type": "String"
-        },
-        {
-          "Name": "N",
-          "Value": 12.0,
-          "Type": "Double"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Digoxin",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO",
-          "Type": "String"
-        },
-        {
-          "Name": "Dose",
-          "Value": "0.125 mg",
-          "Type": "String"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": "S0-(S0-T6-R3)-T24-R14",
-          "Type": "String"
-        },
-        {
-          "Name": "Formulation",
-          "Value": "oral",
-          "Type": "String"
-        },
-        {
-          "Name": "Food state",
-          "Value": ".",
-          "Type": "String"
-        },
-        {
-          "Name": "Comment",
-          "Value": ".",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "RelatedColumns": [
-            {
-              "Name": "Var",
-              "QuantityInfo": {
-                "Path": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticStdDev"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 780.93
-              },
-              "Values": [
-                0.000162
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 780.93
-          },
-          "Values": [
-            0.505
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          336.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
       "Name": "Belz et al. 1983 - Digoxin + 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
       "ExtendedProperties": [
         {
@@ -45804,153 +45657,6 @@
         "Name": "Time",
         "QuantityInfo": {
           "Path": "Belz et al. 1983 - Digoxin + 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          336.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12) 1",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE",
-          "Type": "String"
-        },
-        {
-          "Name": "ID",
-          "Value": 16166.0,
-          "Type": "Double"
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Belz et al. 1983",
-          "Type": "String"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/6831819/",
-          "Type": "String"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig. 1",
-          "Type": "String"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "Digoxin control",
-          "Type": "String"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated",
-          "Type": "String"
-        },
-        {
-          "Name": "N",
-          "Value": 12.0,
-          "Type": "Double"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Digoxin",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        },
-        {
-          "Name": "Route",
-          "Value": "PO",
-          "Type": "String"
-        },
-        {
-          "Name": "Dose",
-          "Value": "0.125 mg",
-          "Type": "String"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": "S0-(S0-T6-R3)-T24-R14",
-          "Type": "String"
-        },
-        {
-          "Name": "Formulation",
-          "Value": "oral",
-          "Type": "String"
-        },
-        {
-          "Name": "Food state",
-          "Value": ".",
-          "Type": "String"
-        },
-        {
-          "Name": "Comment",
-          "Value": ".",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "RelatedColumns": [
-            {
-              "Name": "Var",
-              "QuantityInfo": {
-                "Path": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticStdDev"
-              },
-              "DataInfo": {
-                "Origin": "ObservationAuxiliary",
-                "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 780.93
-              },
-              "Values": [
-                0.000257
-              ],
-              "Dimension": "Concentration (mass)",
-              "Unit": "mg/l"
-            }
-          ],
-          "QuantityInfo": {
-            "Path": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 780.93
-          },
-          "Values": [
-            0.000582999957
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Path": "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -48931,6 +48637,300 @@
         "Dimension": "Time",
         "Unit": "day(s)"
       }
+    },
+    {
+      "Name": "Belz et al. 1983 - Digoxin control to 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE",
+          "Type": "String"
+        },
+        {
+          "Name": "ID",
+          "Value": 16164.0,
+          "Type": "Double"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Belz et al. 1983",
+          "Type": "String"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/6831819/",
+          "Type": "String"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1",
+          "Type": "String"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Digoxin control to 80mg Verapamil",
+          "Type": "String"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated",
+          "Type": "String"
+        },
+        {
+          "Name": "N",
+          "Value": 12.0,
+          "Type": "Double"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Digoxin",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.125 mg",
+          "Type": "String"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": "S0-(S0-T6-R3)-T24-R14",
+          "Type": "String"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "oral",
+          "Type": "String"
+        },
+        {
+          "Name": "Food state",
+          "Value": ".",
+          "Type": "String"
+        },
+        {
+          "Name": "Comment",
+          "Value": ".",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Path": "Belz et al. 1983 - Digoxin control to 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 780.93
+              },
+              "Values": [
+                0.000162
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Belz et al. 1983 - Digoxin control to 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 780.93
+          },
+          "Values": [
+            0.505
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Belz et al. 1983 - Digoxin control to 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          336.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Belz et al. 1983 - Digoxin control to 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE",
+          "Type": "String"
+        },
+        {
+          "Name": "ID",
+          "Value": 16166.0,
+          "Type": "Double"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Belz et al. 1983",
+          "Type": "String"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/6831819/",
+          "Type": "String"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1",
+          "Type": "String"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Digoxin control to 120mg Verapamil",
+          "Type": "String"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated",
+          "Type": "String"
+        },
+        {
+          "Name": "N",
+          "Value": 12.0,
+          "Type": "Double"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Digoxin",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.125 mg",
+          "Type": "String"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": "S0-(S0-T6-R3)-T24-R14",
+          "Type": "String"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "oral",
+          "Type": "String"
+        },
+        {
+          "Name": "Food state",
+          "Value": ".",
+          "Type": "String"
+        },
+        {
+          "Name": "Comment",
+          "Value": ".",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Path": "Belz et al. 1983 - Digoxin control to 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 780.93
+              },
+              "Values": [
+                0.000257
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "Belz et al. 1983 - Digoxin control to 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Digoxin|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 780.93
+          },
+          "Values": [
+            0.583
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "Belz et al. 1983 - Digoxin control to 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          336.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
     }
   ],
   "ObservedDataClassifications": [
@@ -48957,9 +48957,7 @@
         "Wiebe 2020 - Digoxin + Verapamil - R-Norverapamil - PO - 120 mg - Plasma - agg. (n=12)",
         "Wiebe 2020 - Digoxin + Verapamil - S-Norverapamil - PO - 120 mg - Plasma - agg. (n=12)",
         "Pedersen et al. 1982 - Digoxin and Verapamil in MD setting - Digoxin - PO - 1/0.0625/0.125 mg - Plasma - agg. (n=7)",
-        "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
         "Belz et al. 1983 - Digoxin + 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
-        "Belz et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12) 1",
         "Belz et al. 1983 - Digoxin + 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
         "Doering et al. 1983 - Digoxin control - Digoxin - PO - 0.125 mg - Serum - agg. (n=9)",
         "Doering et al. 1983 - Digoxin+ 80mg Verapamil - Digoxin - PO - 0.125 mg - Serum - agg. (n=9)",
@@ -48976,7 +48974,9 @@
         "Schwartz et al. 1982 - Digoxin and Verapamil in MD setting - Verapamil - PO - 80 mg - Serum - agg. (n=10)",
         "Schwartz et al. 1982 - Digoxin and Verapamil in MD setting - Norverapamil - PO - 80 mg - Serum - agg. (n=10)",
         "Belz 1981 - Digoxin + Placebo - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
-        "Belz 1981 - Digoxin + Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)"
+        "Belz 1981 - Digoxin + Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
+        "Belz et al. 1983 - Digoxin control to 80mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)",
+        "Belz et al. 1983 - Digoxin control to 120mg Verapamil - Digoxin - PO - 0.125 mg - Plasma - agg. (n=12)"
       ]
     }
   ]
